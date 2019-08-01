@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nhap diem cac mon hoc , tinh trung binh va tong diem</title>
+</head>
+<body>
+    <script>
+        let phys = parseInt(prompt("Nhập số điểm vật lý"));
+        let chem = parseInt(prompt("Nhập số điểm hóa học"));
+        let biolo =parseInt(prompt("Nhập số điểm sinh học"));
+
+        let ava = (phys + chem + biolo)/3;
+        let tota = (phys + chem + biolo);
+
+        document.write('Điểm trung bình ='+ ava);
+        document.write('<br/>');
+        document.write('Điểm Tổng =' + tota);
+
+    </script>
+</body>
+</html>
